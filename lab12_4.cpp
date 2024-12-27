@@ -2,7 +2,9 @@
 
 using namespace std;
 
-void 
+template <typename what>
+
+void mySwap(what &,what &); 
 
 int main(){
 	int x, y;
@@ -32,3 +34,11 @@ int main(){
 	return 0;
 }
 
+template <typename what>
+void mySwap(what &x ,what &y ){
+	what z; 
+	z = x ;
+	x = y ;
+	y = z ;
+
+}
