@@ -2,6 +2,8 @@
 
 using namespace std;
 
+void 
+
 int main(){
 	int x, y;
 	string a, b;
